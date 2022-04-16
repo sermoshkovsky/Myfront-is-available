@@ -1,0 +1,55 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(223, 230, 226);
+    padding: 0;
+    margin: 0;
+}
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    background: grey;
+    padding: 15px 0 35px;
+}
+.header a {
+    color: aliceblue;
+}
+.logo {
+    background-color: rgb(240, 130, 86);
+    border: 2px solid yellowgreen;
+    border-radius: 50px 0 0;
+    width: 270px;
+    text-align: center;
+    margin-right: 0;
+}
+.list {
+    list-style: none;
+}
+.box, nav, .stek {
+    display: flex;
+    justify-content: space-between;
+}
+.front {
+    margin-top: 70px;
+    color: rgb(35, 17, 51);
+}
+a:hover {
+    color: brown;
+    font-weight: bold;
+}
+.base {
+    text-align: center;
+}
